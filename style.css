@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(83, 83, 83);
+  color: rgb(0, 0, 0);
+}
+footer {
+  max-width: 600px;
+  margin: auto;
+}
+.select-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
