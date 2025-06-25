@@ -16,7 +16,7 @@
       <img id="image" alt="Movie Poster" />
       <h5 id="plot"></h5>
       <script>
-        fetch("http://www.omdbapi.com/?apikey=f1fa13ae&t=ANNABELLE")
+        fetch("https://www.omdbapi.com/?apikey=f1fa13ae&t=ANNABELLE")
           .then((res) => res.json())
           .then((data) => {
             document.getElementById("title").innerText = data.Title;
